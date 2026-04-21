@@ -109,11 +109,12 @@
               "title": "笔记本导航器"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 654.5
   },
   "right": {
     "id": "49c00fd3bb78e528",
@@ -129,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "测试用文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "测试用文件 的反向链接列表"
             }
           },
           {
@@ -147,11 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "测试用文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "测试用文件 的出链列表"
             }
           },
           {
@@ -189,12 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "测试用文件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "测试用文件 的大纲"
             }
           },
           {
@@ -228,11 +232,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,7 +255,7 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "cc790bc6b0deb113",
+  "active": "ecff4a373507caec",
   "lastOpenFiles": [
     "软件开发/test/test.md",
     "测试用文件.md",
