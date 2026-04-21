@@ -4,20 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "89fcb28f6afc3f25",
-        "type": "tabs",
+        "id": "1a9fc82cd05a3cf6",
+        "type": "split",
         "children": [
           {
-            "id": "57b81419eff3746c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
+            "id": "06d49f1113067c6a",
+            "type": "tabs",
+            "dimension": 58.236434108527135,
+            "children": [
+              {
+                "id": "cc790bc6b0deb113",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "测试用文件.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "测试用文件"
+                }
+              }
+            ]
+          },
+          {
+            "id": "0ff08d07c2d8b4ea",
+            "type": "tabs",
+            "dimension": 41.76356589147287,
+            "children": [
+              {
+                "id": "e58264a6fa2e4d4a",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {},
+                  "icon": "dot-network",
+                  "title": "Mind Map of 测试用文件"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,12 +98,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "75a7eb24a604f4bf",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324.5
   },
   "right": {
     "id": "49c00fd3bb78e528",
@@ -189,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -208,19 +247,24 @@
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "ecff4a373507caec",
+  "active": "cc790bc6b0deb113",
   "lastOpenFiles": [
+    "软件开发/test/test.md",
+    "测试用文件.md",
+    "软件开发/test/测试.md",
+    "软件开发/测试.md",
+    "软件开发/test/未命名.md",
+    "软件开发/test",
     "Excalidraw/Drawing 2026-04-21 23.52.29.excalidraw.md",
     "Excalidraw",
-    "未命名.md",
     "未命名 1.md",
     "软件开发/Drawing 2026-04-21 23.48.52.excalidraw.md",
     "Excalidraw/Drawing 2026-04-21 23.43.04.excalidraw.md",
     "未命名.base",
-    "软件开发/test/未命名.base",
-    "软件开发/test/未命名.md"
+    "软件开发/test/未命名.base"
   ]
 }
