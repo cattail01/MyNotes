@@ -1,6 +1,6 @@
 {
   "newFileLocation": "current",
-  "attachmentFolderPath": "./assets",
+  "attachmentFolderPath": "/assets",
   "deleteUnlinkedAttachments": "always",
   "promptDelete": false
 }
