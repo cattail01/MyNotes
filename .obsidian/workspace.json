@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
+                "file": "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -191,8 +191,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -215,23 +215,23 @@
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "notebook-navigator:笔记本导航器": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ecff4a373507caec",
+  "active": "3ae95b406f05998c",
   "lastOpenFiles": [
+    "软件开发/办公自动化/工具/影刀aipower",
     "软件开发/办公自动化/项目/自动化工作学习.md",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
+    "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "assets/Pasted image 20260422224659.png",
     "assets",
     "Pasted image 20260422224623.png",
     "软件开发/办公自动化/工具/影刀/影刀官方中级课程/assets/Pasted image 20260422224410.png",
     "软件开发/办公自动化/工具/影刀/影刀官方中级课程/assets",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程",
+    "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程",
     "软件开发/办公自动化/工具/numpy",
     "软件开发/办公自动化/工具/影刀/影刀.md",
-    "软件开发/办公自动化/工具/影刀",
+    "软件开发/办公自动化/工具/影刀自动化",
     "工具 1",
     "软件开发/办公自动化/工具",
     "测试用文件.md",
