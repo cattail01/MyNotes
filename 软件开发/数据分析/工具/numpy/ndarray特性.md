@@ -50,4 +50,8 @@ arr + 10  # 自动将 10 广播到所有行
 
 ---
 
+**参考资料：**
+
+- [007-numpy-ndarray的特性_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1D9GLzyEL6?spm_id_from=333.788.videopod.episodes&vd_source=5f0f8adc7e5d3bc7e86930bcb6e1e799&p=7)
+
 *整理时间：2026-04-24*

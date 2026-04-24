@@ -8,7 +8,7 @@ pip install numpy
 import numpy as np
 ```
 
----
+***
 
 **核心定位**：Python 科学计算的基础核心库，是数据分析、机器学习的底层数值工具。
 
@@ -20,6 +20,10 @@ import numpy as np
 2. 专业数值能力：内置线性代数、统计计算、随机数生成、离散傅里叶变换等专业功能
 3. 数据与扩展能力：支持数组数据的磁盘读写、内存映射文件操作，提供对接 C/C++/Fortran 代码的 API，扩展性强
 
----
+***
+
+**参考资料：**
+
+- [006-numpy-numpy介绍\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1D9GLzyEL6?spm_id_from=333.788.videopod.episodes\&vd_source=5f0f8adc7e5d3bc7e86930bcb6e1e799\&p=6)
 
 *整理时间：2026-04-24*
