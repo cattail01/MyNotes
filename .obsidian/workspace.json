@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.md",
+                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "影刀prompt文件生成"
+              "title": "影刀prompt生成"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.md",
+                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "影刀prompt文件生成 的反向链接列表"
+              "title": "影刀prompt生成 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.md",
+                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "影刀prompt文件生成 的出链列表"
+              "title": "影刀prompt生成 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.md",
+                "file": "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "影刀prompt文件生成 的大纲"
+              "title": "影刀prompt生成 的大纲"
             }
           },
           {
@@ -208,10 +208,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4edfb0979657e717",
+  "active": "95bc24ced54a40d3",
   "lastOpenFiles": [
     "软件开发/ai研究/影刀aipower/20260423公开课/提示词【Prompt】.md",
-    "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.md",
+    "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
+    "assets/【Top1】Prompt生成.json",
+    "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.json",
     "软件开发/数据分析/工具/numpy/numpy.md",
     "游戏开发/游戏开发.md",
     "硬件开发/硬件开发.md",
@@ -226,11 +228,9 @@
     "assets/Pasted image 20260422224659.png",
     "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "读书笔记",
-    "工作笔记",
     "软件开发/办公自动化/项目/自动化工作学习.md",
     "软件开发/办公自动化/工具/影刀/影刀AIPower/20260423讲座/20260423讲座.md",
     "Excalidraw/Drawing 2026-04-24 21.34.12.excalidraw.md",
-    "Excalidraw",
     "conflict-files-obsidian-git.md"
   ]
 }
