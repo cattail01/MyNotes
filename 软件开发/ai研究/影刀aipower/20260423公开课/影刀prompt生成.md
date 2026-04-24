@@ -4,6 +4,13 @@
 
 ![[【Top1】Prompt生成.json]]
 
+将文件导入 ai power
+
+[影刀AI Power](https://aipower.yingdao.com/workflows)
+
+得到一个ai工作流
+
+![[Pasted image 20260424224407.png]]
 
 ## 测试场景
 
