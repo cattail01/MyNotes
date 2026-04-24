@@ -184,13 +184,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "151e90cd87d3d122",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 491.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,12 +222,12 @@
   "lastOpenFiles": [
     "软件开发/ai研究/影刀aipower/20260423公开课/提示词【Prompt】.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
+    "软件开发/ai研究/影刀aipower/20260423公开课/20260423公开课.md",
+    "硬件开发/硬件开发.md",
+    "软件开发/数据分析/工具/numpy/numpy.md",
     "assets/【Top1】Prompt生成.json",
     "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.json",
-    "软件开发/数据分析/工具/numpy/numpy.md",
     "游戏开发/游戏开发.md",
-    "硬件开发/硬件开发.md",
-    "软件开发/ai研究/影刀aipower/20260423公开课/20260423公开课.md",
     "软件开发/编程语言",
     "软件开发/worldquant量化研究",
     "软件开发/数据分析/工具",
