@@ -4,5 +4,6 @@
   "deleteUnlinkedAttachments": "always",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true
 }

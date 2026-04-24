@@ -2,7 +2,7 @@
 
 首先下载文件：
 
-![[../../../../assets/【Top1】Prompt生成.json]]
+![[【Top1】Prompt生成.json]]
 
 将文件导入 ai power
 
@@ -10,7 +10,7 @@
 
 得到一个ai工作流
 
-![[../../../../assets/Pasted image 20260424224407.png]]
+![[Pasted image 20260424224407.png]]
 
 ## 测试场景
 
