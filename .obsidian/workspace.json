@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "42c89ce84a70afc0",
+    "id": "7001e676e19f7eeb",
     "type": "split",
     "children": [
       {
-        "id": "fa5243213aebd5d4",
+        "id": "1252d64bd3771428",
         "type": "tabs",
         "children": [
           {
-            "id": "13496807c818f05a",
+            "id": "95bc24ced54a40d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,33 +27,33 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b0a461811dc94845",
+    "id": "11c676f13dbf2aad",
     "type": "split",
     "children": [
       {
-        "id": "19d94dbe91e75bb2",
+        "id": "fa0e99e052121a49",
         "type": "tabs",
         "children": [
           {
-            "id": "3ae95b406f05998c",
+            "id": "4edfb0979657e717",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": true
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "94db04c3f734ae62",
+            "id": "9cc32fa44df078b7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#学习",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "cbccd75c116d981f",
+            "id": "4a0a1bb295e2c5e5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 300
   },
   "right": {
-    "id": "49c00fd3bb78e528",
+    "id": "60b54d642adb6dc9",
     "type": "split",
     "children": [
       {
-        "id": "8f1b1d3d7eef6a4a",
+        "id": "ddb0ba0fcf1b3b4c",
         "type": "tabs",
         "children": [
           {
-            "id": "52f5e61138c1029e",
+            "id": "b2bcfe7b5b0f7bae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
+                "file": "软件开发/办公自动化/项目/自动化工作学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "搭建：订单信息审核 的反向链接列表"
+              "title": "自动化工作学习 的反向链接列表"
             }
           },
           {
-            "id": "39d34cac9c7f69a0",
+            "id": "29357751b9b15654",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
+                "file": "软件开发/办公自动化/项目/自动化工作学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "搭建：订单信息审核 的出链列表"
+              "title": "自动化工作学习 的出链列表"
             }
           },
           {
-            "id": "57f5be7bf6b2e11a",
+            "id": "27f8ca5a8091c876",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "810640e66841552b",
+            "id": "64cec378743c76c8",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,22 +151,22 @@
             }
           },
           {
-            "id": "6e50cfdd69a3b6cb",
+            "id": "d145cc24c82dfd8a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
+                "file": "软件开发/办公自动化/项目/自动化工作学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "搭建：订单信息审核 的大纲"
+              "title": "自动化工作学习 的大纲"
             }
           },
           {
-            "id": "b7cd6a19f98fbd11",
+            "id": "7ead0a934044ea8f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -176,7 +176,7 @@
             }
           },
           {
-            "id": "ecff4a373507caec",
+            "id": "07fd028d57937d7f",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,23 +184,13 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "792de200ac089277",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,44 +200,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ecff4a373507caec",
+  "active": "95bc24ced54a40d3",
   "lastOpenFiles": [
-    "软件开发/办公自动化/工具/影刀/影刀AIPower/20260423讲座/20260423讲座.md",
-    "assets/Pasted image 20260422224659.png",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程/搭建：订单信息审核.md",
-    "软件开发/办公自动化/工具/影刀/影刀AIPower/20260423讲座",
-    "软件开发/办公自动化/工具/影刀/影刀AIPower",
+    "Excalidraw/Drawing 2026-04-24 21.34.12.excalidraw.md",
     "软件开发/办公自动化/项目/自动化工作学习.md",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程/未命名.base",
-    "assets",
-    "Pasted image 20260422224623.png",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程/assets/Pasted image 20260422224410.png",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程/assets",
-    "软件开发/办公自动化/工具/影刀/影刀官方中级课程",
-    "软件开发/办公自动化/工具/numpy",
-    "软件开发/办公自动化/工具/影刀/影刀.md",
-    "软件开发/办公自动化/工具/影刀",
-    "工具 1",
-    "软件开发/办公自动化/工具",
-    "测试用文件.md",
-    "工作/京东商品上架开发/基本流程.md",
-    "工作/重要账号密码/重要账号密码.md",
-    "工作/重要账号密码/企业迁移码.md",
-    "软件开发/test/test.md",
-    "软件开发/test/测试.md",
-    "软件开发/测试.md",
-    "软件开发/test/未命名.md",
-    "Excalidraw/Drawing 2026-04-21 23.52.29.excalidraw.md",
-    "未命名 1.md",
-    "软件开发/Drawing 2026-04-21 23.48.52.excalidraw.md",
-    "Excalidraw/Drawing 2026-04-21 23.43.04.excalidraw.md"
+    "Excalidraw",
+    "conflict-files-obsidian-git.md"
   ]
 }
