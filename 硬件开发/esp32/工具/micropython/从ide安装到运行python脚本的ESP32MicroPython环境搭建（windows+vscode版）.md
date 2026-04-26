@@ -9,14 +9,44 @@
 
 RT-Thread MicroPython
 
-## 安装 MicroPython 依赖工具（命令行）
+配置
+
+```json
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.extraPaths": [
+    "D:/micropython-lib/micropython",
+    "D:/micropython-lib/python-stdlib"
+  ],
+  "python.autoComplete.extraPaths": ["D:/micropython-lib/micropython"]
+}
+
+```
+
+## 下载固件、烧录芯片
 
 ```bash
-# 1. 串口/文件交互工具（Pymakr 依赖） 
-pip install adafruit-ampy rshell 
-# 2. 固件烧录工具（ESP32/ESP8266） 
-pip install esptool
+esptool.py erase_flash
+
+esptool.py --baud 460800 write_flash 0x1000 ESP32_BOARD_NAME-DATE-VERSION.bin
 ```
+
+## 链接开发板、创建工程并测试
+
+对照RT-Thread MicroPython主页的步骤进行操作即可
+
+---
+
+## 最终效果
+
+boost文件夹：负责写入固件
+
+![[Pasted image 20260426130608.png|697]]
+
+项目文件：负责开发
+
+![[1dffd9a9-4958-4392-b512-b586490ea190 1.png]]
+
 
 ---
 
