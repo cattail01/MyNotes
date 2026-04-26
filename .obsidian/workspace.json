@@ -196,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -218,8 +218,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "07fd028d57937d7f",
+  "active": "6113b5b759d5b2fc",
   "lastOpenFiles": [
+    "assets/Pasted image 20260426131240.png",
     "assets/1dffd9a9-4958-4392-b512-b586490ea190 1.png",
     "硬件开发/esp32/工具/micropython/micropython.md",
     "assets/1dffd9a9-4958-4392-b512-b586490ea190.png",

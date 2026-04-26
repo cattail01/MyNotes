@@ -5,10 +5,6 @@
 - 下载micropython库路径: [https://micropython.org/download/](https://micropython.org/download/)
 - MicroPython库路径: [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html) machine库
 
-## vscode插件
-
-RT-Thread MicroPython
-
 配置
 
 ```json
@@ -21,6 +17,12 @@ RT-Thread MicroPython
   "python.autoComplete.extraPaths": ["D:/micropython-lib/micropython"]
 }
 
+
+## vscode插件
+
+RT-Thread MicroPython
+
+
 ```
 
 ## 下载固件、烧录芯片
@@ -31,13 +33,15 @@ esptool.py erase_flash
 esptool.py --baud 460800 write_flash 0x1000 ESP32_BOARD_NAME-DATE-VERSION.bin
 ```
 
-## 链接开发板、创建工程并测试
+## 连接开发板、创建工程并测试
 
 对照RT-Thread MicroPython主页的步骤进行操作即可
 
 ---
 
 ## 最终效果
+
+![[Pasted image 20260426131240.png]]
 
 boost文件夹：负责写入固件
 
@@ -46,7 +50,6 @@ boost文件夹：负责写入固件
 项目文件：负责开发
 
 ![[1dffd9a9-4958-4392-b512-b586490ea190 1.png]]
-
 
 ---
 
