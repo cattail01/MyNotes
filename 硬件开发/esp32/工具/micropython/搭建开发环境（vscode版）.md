@@ -1,20 +1,16 @@
-## ESP32-WROOM MicroPython 开发环境搭建
+## 安装基础软件
 
----
-
-### 安装基础软件
-
-#### 1. VSCode
+### 1. VSCode
 
 下载：[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-#### 2. Python
+### 2. Python
 
 下载：[https://www.python.org/downloads/](https://www.python.org/downloads/)（需 3.8+）
 
 安装时勾选 **Add Python to PATH**。
 
-#### 3. USB驱动
+### 3. USB驱动
 
 ESP32-WROOM 通常使用 **CP210x** 芯片：
 
@@ -22,7 +18,7 @@ ESP32-WROOM 通常使用 **CP210x** 芯片：
 
 安装后连接开发板，在设备管理器确认端口正常（如 COM3）。
 
-#### 4. VSCode 插件
+### 4. VSCode 插件
 
 在扩展商店搜索安装：
 
@@ -30,11 +26,23 @@ ESP32-WROOM 通常使用 **CP210x** 芯片：
 - **Pymakr**（MicroPython 设备连接、文件同步、串口监视）
 - **RT-Thread MicroPython**（可选，国产插件）
 
-#### 5. esptool 烧录工具
+### 5. Python 依赖包
 
 ```bash
+# 串口/文件交互工具（Pymakr 依赖）
+pip install adafruit-ampy rshell
+
+# 固件烧录工具（ESP32/ESP8266）
 pip install esptool
 ```
+
+## 创建工程
+
+根据【RT-Thread MicroPython】插件的readme进行环境搭建
+
+[micropython/README_ZH.md at master · RT-Thread-packages/micropython](https://github.com/RT-Thread-packages/micropython/blob/master/README_ZH.md)
+
+
 
 ---
 

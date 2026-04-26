@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件开发/esp32/工具/micropython/搭建开发环境.md",
+                "file": "硬件开发/esp32/工具/micropython/搭建开发环境（vscode版）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "搭建开发环境"
+              "title": "搭建开发环境（vscode版）"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件开发/esp32/工具/micropython/搭建开发环境.md",
+                "file": "硬件开发/esp32/工具/micropython/搭建开发环境（vscode版）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "搭建开发环境 的大纲"
+              "title": "搭建开发环境（vscode版） 的大纲"
             }
           },
           {
@@ -218,10 +218,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7e47b44e417f787c",
+  "active": "4edfb0979657e717",
   "lastOpenFiles": [
     "硬件开发/esp32/工具/micropython/介绍.md",
-    "硬件开发/esp32/工具/micropython/搭建开发环境.md",
+    "硬件开发/esp32/工具/micropython/搭建开发环境（vscode版）.md",
     "硬件开发/esp32/工具/micropython/micropython.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/知识库【RAG】.md",
     "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
