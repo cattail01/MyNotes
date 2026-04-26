@@ -1,14 +1,13 @@
+## 代码库
+
+### MicroPython
+
+- 下载micropython库路径: [https://micropython.org/download/](https://micropython.org/download/)
+- MicroPython库路径: [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html) machine库
+
 ## vscode插件
 
-搜索并安装vscode插件：
-
-Python（Microsoft 官方） → 代码提示、语法检查
-
-Pymakr（pycom） → 连接开发板、上传代码、串口终端（最常用）
-
-MicroPico / RT-Thread MicroPython（二选一） → 补全与工程模板
-
-推荐组合：Python + Pymakr（ESP32/ESP8266 最稳）
+RT-Thread MicroPython
 
 ## 安装 MicroPython 依赖工具（命令行）
 
