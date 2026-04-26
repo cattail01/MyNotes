@@ -218,11 +218,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4edfb0979657e717",
+  "active": "7e47b44e417f787c",
   "lastOpenFiles": [
-    "硬件开发/esp32/工具/micropython/介绍.md",
-    "硬件开发/esp32/工具/micropython/搭建开发环境（vscode版）.md",
     "硬件开发/esp32/工具/micropython/micropython.md",
+    "硬件开发/stm32",
+    "硬件开发/esp32/工具/micropython/搭建开发环境（vscode版）.md",
+    "硬件开发/esp32/工具/micropython/介绍.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/知识库【RAG】.md",
     "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "软件开发/数据分析/工具/numpy/ndarray的属性.md",
@@ -249,7 +250,6 @@
     "Tags",
     "trae/skills",
     "trae",
-    "软件开发/数据存储",
     "软件开发/办公自动化/项目/自动化工作学习.md",
     "软件开发/办公自动化/工具/影刀/影刀AIPower/20260423讲座/20260423讲座.md",
     "Excalidraw/Drawing 2026-04-24 21.34.12.excalidraw.md",
