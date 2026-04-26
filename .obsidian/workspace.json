@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b87d8603f7c6fc38",
+        "id": "eeb420d0e018dee1",
         "type": "tabs",
         "children": [
           {
-            "id": "7a29e00363cb699f",
+            "id": "7e47b44e417f787c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/提示词【Prompt】.md",
+                "file": "软件开发/数据分析/工具/numpy/numpy介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提示词【Prompt】"
+              "title": "numpy介绍"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/ai研究/影刀aipower/20260423公开课/提示词【Prompt】.md",
+                "file": "软件开发/数据分析/工具/numpy/numpy介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "提示词【Prompt】 的大纲"
+              "title": "numpy介绍 的大纲"
             }
           },
           {
@@ -218,35 +218,35 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7a29e00363cb699f",
+  "active": "7e47b44e417f787c",
   "lastOpenFiles": [
-    "软件开发/ai研究/影刀aipower/20260423公开课/知识库【RAG】.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/提示词【Prompt】.md",
+    "软件开发/ai研究/影刀aipower/20260423公开课/知识库【RAG】.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt生成.md",
+    "软件开发/软件开发.md",
+    "软件开发/数据分析/工具/numpy/ndarray特性.md",
+    "软件开发/数据分析/工具/numpy/ndarray的属性.md",
+    "游戏开发/游戏开发.md",
+    "硬件开发/esp32/工具/micropython",
+    "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
+    "硬件开发/esp32/工具",
+    "硬件开发/esp32",
+    "技术美术",
+    "读书笔记/读书笔记.md",
     "基础学科/基础学科.md",
+    "硬件开发/硬件开发.md",
     "assets/Pasted image 20260425000655.png",
     "assets/Pasted image 20260424224407.png",
     "assets/Pasted image 20260422224659.png",
-    "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "软件开发/ai研究/影刀aipower/20260423公开课/20260423公开课.md",
-    "软件开发/软件开发.md",
     "assets/【Top1】Prompt生成.json",
     "assets",
-    "软件开发/数据分析/工具/numpy/ndarray的属性.md",
-    "软件开发/数据分析/工具/numpy/ndarray特性.md",
-    "游戏开发/游戏开发.md",
-    "硬件开发/硬件开发.md",
-    "读书笔记/读书笔记.md",
     "软件开发/数据分析/工具/numpy/numpy.md",
     "Tags",
     "软件开发/数据分析/工具/numpy/numpy介绍.md",
     "trae/skills",
     "trae",
     "软件开发/数据存储",
-    "基础学科",
-    "软件开发/ai研究/影刀aipower/20260423公开课/影刀prompt文件生成.json",
-    "软件开发/编程语言",
-    "软件开发/worldquant量化研究",
     "软件开发/办公自动化/项目/自动化工作学习.md",
     "软件开发/办公自动化/工具/影刀/影刀AIPower/20260423讲座/20260423讲座.md",
     "Excalidraw/Drawing 2026-04-24 21.34.12.excalidraw.md",
