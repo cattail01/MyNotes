@@ -5,7 +5,7 @@
 - 下载micropython库路径: [https://micropython.org/download/](https://micropython.org/download/)
 - MicroPython库路径: [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html) machine库
 
-配置
+配置（参考一部分即可）
 
 ```json
 {
