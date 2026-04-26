@@ -40,10 +40,11 @@ pip install esptool
 
 根据【RT-Thread MicroPython】插件的readme进行环境搭建
 
-[micropython/README_ZH.md at master · RT-Thread-packages/micropython](https://github.com/RT-Thread-packages/micropython/blob/master/README_ZH.md)
-
-
-
 ---
 
+参考链接
+
+[RT-Thread-packages/micropython: MicroPython port package for RT-Thread](https://github.com/RT-Thread-packages/micropython)
+
 *整理时间：2026-04-24*
+在·
