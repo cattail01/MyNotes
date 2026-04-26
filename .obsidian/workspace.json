@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件开发/esp32/工具/micropython/搭建开发环境（windows+vscode版）.md",
+                "file": "硬件开发/esp32/工具/micropython/从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "搭建开发环境（windows+vscode版）"
+              "title": "从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版）"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件开发/esp32/工具/micropython/搭建开发环境（windows+vscode版）.md",
+                "file": "硬件开发/esp32/工具/micropython/从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "搭建开发环境（windows+vscode版） 的大纲"
+              "title": "从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版） 的大纲"
             }
           },
           {
@@ -224,7 +224,7 @@
     "基础学科/计算机基础/计算机图形学",
     "基础学科/基础学科.md",
     "基础学科/计算机基础/数据结构与算法",
-    "硬件开发/esp32/工具/micropython/搭建开发环境（windows+vscode版）.md",
+    "硬件开发/esp32/工具/micropython/从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版）.md",
     "硬件开发/esp32/工具/micropython/micropython.md",
     "硬件开发/stm32",
     "硬件开发/esp32/工具/micropython/介绍.md",
