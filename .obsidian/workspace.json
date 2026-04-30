@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Harness Engineering 笔记.md",
+                "file": "软件开发/ai研究/工具/Harness Engineering/Harness Engineering 笔记 - 编程导航.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness Engineering 笔记"
+              "title": "Harness Engineering 笔记 - 编程导航"
             }
           }
         ]
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Harness Engineering 笔记.md",
+                "file": "软件开发/ai研究/工具/Harness Engineering/Harness Engineering 笔记 - 编程导航.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Harness Engineering 笔记 的大纲"
+              "title": "Harness Engineering 笔记 - 编程导航 的大纲"
             }
           },
           {
@@ -240,9 +240,10 @@
   },
   "active": "4edfb0979657e717",
   "lastOpenFiles": [
-    "软件开发/ai研究/工具",
+    "软件开发/ai研究/工具/Harness Engineering",
     "Clippings/鹅厂面试官：“你用过 Harness Engineering 吗？” 我冷笑：“这不是 22 年的技术么？” 他激动了：明天入职！.md",
-    "Clippings/Harness Engineering 笔记.md",
+    "软件开发/ai研究/工具/Harness Engineering/Harness Engineering 笔记 - 编程导航.md",
+    "软件开发/ai研究/工具",
     "assets/Pasted image 20260430133435.png",
     "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "Clippings",
@@ -271,7 +272,6 @@
     "硬件开发/esp32/工具/micropython",
     "硬件开发/esp32/工具",
     "硬件开发/esp32",
-    "技术美术",
     "硬件开发/硬件开发.md",
     "assets/Pasted image 20260425000655.png",
     "assets/Pasted image 20260424224407.png",

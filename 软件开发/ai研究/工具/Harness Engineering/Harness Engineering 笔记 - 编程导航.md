@@ -1,16 +1,16 @@
-## 💡 引言：你遇到过这些 AI 编程坑吗？
+## 💡 引言
 
-用 AI 编程时，你是不是也碰到过这些头疼的问题？
+用 AI 编程时，你可能会碰到这些问题：
 
-- 让 AI 改下页面样式，结果它没搞懂，直接重新开发了整个布局？
-- 明明一开始要求单文件不超过 200 行，聊了十几轮后，AI 早就把前面的约束忘了，写了个 1000 行的大文件？
-- 更让人崩溃的：让 AI 修个 Bug，结果又出了 3 个新 Bug，项目都跑不起来了？
+- 让 AI 改样式，结果它重新开发了整个布局
+- AI 忘了一开始的约束，把代码写得很长
+- 修 Bug 反而出了更多新 Bug
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1FBibcCZvL958yC0ZIvC7GlhTf3v73LDLm7unnrFicIT2xicD5YVIm3IToT1c5vkIiacQ8JZFp4W1Zps5gic8j545SWEwHSd5j8RSWY/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=0)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1FBibcCZvL958yC0ZIvC7GlhTf3v73LDLm7unnrFicIT2xicD5YVIm3IToT1c5vkIiacQ8JZFp4W1Zps5gic8j545SWEwHSd5j8RSWY/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
 
-前两个问题还有办法解决（写好提示词、给够信息），但第三个问题就比较棘手了。**要让 AI 做好一个完整项目，你得给它搭一整套靠谱的工作环境和流程才行。
+前两个问题可以通过写好提示词、给够信息解决，第三个问题更棘手。要让 AI 做好完整项目，得给它搭一整套靠谱的工作环境和流程。
 
-这就是最近在 AI 圈爆火的 **Harness Engineering**！
+这就是 **Harness Engineering**！
 
 ---
 
@@ -18,33 +18,22 @@
 
 ### 🐴 定义
 
-Harness 翻译过来是「马具」，这个比喻很形象：
+Harness 翻译过来是「马具」，把 AI 模型比作马，Harness 就是驾驭它的一切：缰绳、路线规划、围栏等。我们要让这匹马跑得更快、更稳。
 
-- 如果把 AI 模型比作一匹马
-- 那 Harness 就是驾驭这匹马所需要的一切：**缰绳、路线规划、围栏等等
-
-我们要做的，就是怎么让这匹马跑得更快、更稳，顺利完成任务。
-
-具体来说，Harness 是围绕 AI 模型搭建的一整套**工作环境和工作流程**，包括：
-
-- 你给 AI 写的项目规则文件
-- 配置的各种工具
-- 安排的任务拆分和执行顺序
-- 设计的测试检查流程
-- 等等
+具体来说，Harness 是围绕 AI 模型搭建的**工作环境和工作流程**，包括：项目规则文件、配置的工具、任务拆分和执行顺序、测试检查流程等。
 
 ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1EmCJv7g3o4xWK6cAgZClVo1vuAxocEiaq9oAJUI2CiavwMCVmRDxbYAZVp3rz1APHoE30UZmibjJTCicVn5gzDgiclSb7MiaWiabicVpw/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=1)
 
-### 🔥 为什么突然火了？
+### 🔥 背景
 
-有两个重磅案例把这个概念带火了：
+两个案例让这个概念火了：
 
-1. **LangChain 实验**：同一个 AI 模型，只优化围绕它的 Harness 部分，编码基准测试排名直接从 30 名开外冲到了前 5！
-2. **OpenAI 团队**：3 个人的小团队，全靠 Harness 引导 AI 生成了上百万行代码，做出的产品已经在内部正式上线使用了！
+1. **LangChain 实验**：同一 AI 模型，只优化 Harness，编码基准测试排名从 30 名开外到前 5
+2. **OpenAI 团队**：3 人团队靠 Harness 引导 AI 生成上百万行代码，产品内部上线
 
 **行业共识**：
 
-> **AI 编程的瓶颈不在模型有多聪明，而在你围绕模型搭的这套环境和流程够不够好！**
+> AI 编程的瓶颈不在模型有多聪明，而在围绕模型搭的环境和流程够不够好
 
 ### 📈 发展历程
 
@@ -65,11 +54,15 @@ Harness 翻译过来是「马具」，这个比喻很形象：
    - 核心：让 AI 不只是回答问题，而是持续靠谱地干完一整件事
    - 关注点：给它配什么工具、大任务怎么拆分成小步骤分批完成、出了问题怎么自己检查和修复、怎么防止代码质量随着迭代慢慢下滑
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/LlSQOKIxJ1HfsPrfbdibRTwmPloPP2bUIibTa8XANM8w0ticrOZ01JLjYSX9ibnd5lZDiccA4vWkY8ZYYXwA1hadWXEcncaHFfPAaJdLfK8FJ22A/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=5)
+
 **业界总结公式**：
 
 > **Agent = 模型 + Harness**
 
 也就是说，围绕 AI 模型搭建的工具、规则、流程、检查机制，全都属于 Harness 的范畴！
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/LlSQOKIxJ1EHibhaShO5UPdOP2ccOicg0tdTm9bbK5ehZz4sLLeDBXoWcPkEObX6Baqhcfg2BfKkYUhSZqDDPwTnibEmCTMsGZzm5HhvbAxOTk/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=7)
 
 ---
 
@@ -88,6 +81,8 @@ Harness 翻译过来是「马具」，这个比喻很形象：
 不过要注意，AI 能处理的上下文空间是有限的！OpenAI 团队就踩过一个坑：他们试过把几千行的规则塞进一个大文件，结果 AI 反而更容易忽略里面的关键信息。
 
 后来他们改成把 **AGENTS.md 当成一个「目录」来用**，只写大概 100 行的摘要和索引，然后在 `docs/` 目录下放详细的设计文档。AGENTS.md 里面写清楚「前端规范看 `docs/FRONTEND.md`、安全相关看 `docs/SECURITY.md`」这样的指引，AI 需要什么就去读对应的文件。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/LlSQOKIxJ1Ep9P0zZzryyjhhfWvX1IxVnkz6kltjHaHOo3mFdKCFVLTeWMyQrpXuQ0HNXmQrxNZagNHpjZ1S1w9ibayopib5GHpnkuXmYB9Gk/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=8)
 
 这种**按需加载**的思路，就是上下文架构的核心！
 
