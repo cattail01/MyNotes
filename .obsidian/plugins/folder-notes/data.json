@@ -8,7 +8,7 @@
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
   "autoCreateForFiles": false,
-  "enableCollapsing": false,
+  "enableCollapsing": true,
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
@@ -63,7 +63,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "path",
+  "settingsTab": "file_explorer",
   "supportedFileTypes": [
     "md",
     "canvas",
