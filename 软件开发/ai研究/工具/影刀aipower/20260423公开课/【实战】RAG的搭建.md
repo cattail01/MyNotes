@@ -19,3 +19,9 @@
 ![[Pasted image 20260430220339.png]]
 
 ## 设置分段
+
+![[Pasted image 20260430221538.png]]
+
+## 解析知识库
+
+![[Pasted image 20260430221628.png]]
