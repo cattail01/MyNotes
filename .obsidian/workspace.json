@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
+                "file": "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【实战】影刀prompt生成"
+              "title": "Harness Engineering 介绍"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
+                "file": "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "【实战】影刀prompt生成 的大纲"
+              "title": "Harness Engineering 介绍 的大纲"
             }
           },
           {
@@ -220,28 +220,33 @@
   },
   "active": "9e245a360f561db6",
   "lastOpenFiles": [
-    "assets/Pasted image 20260430212134.png",
-    "assets/Pasted image 20260430211844.png",
-    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】提示词【Prompt】.md",
-    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/知识库【RAG】.md",
-    "assets/Pasted image 20260430203255.png",
-    "Clippings/read_整理版.md",
+    "软件开发/ai研究/工具/影刀aipower/20260423公开课/前言.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/智能客服.md",
-    "assets/Pasted image 20260430201321.png",
+    "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
+    "软件开发/ai研究/工具/Harness Engineering/编程导航",
+    "游戏开发/游戏开发.md",
+    "硬件开发/硬件开发.md",
+    "软件开发/软件开发.md",
+    "assets/Pasted image 20260430212134.png",
     "assets/Pasted image 20260430201313.png",
     "assets/Pasted image 20260430200935.png",
-    "assets/Pasted image 20260430200528.png",
+    "assets/Pasted image 20260426131240.png",
+    "assets/Pasted image 20260426130608.png",
+    "assets/1dffd9a9-4958-4392-b512-b586490ea190 1.png",
+    "assets/Pasted image 20260422224659.png",
+    "assets/Pasted image 20260430211844.png",
+    "assets/Pasted image 20260430203255.png",
+    "assets/Pasted image 20260430201321.png",
+    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
+    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】提示词【Prompt】.md",
+    "Clippings/read_整理版.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/20260423公开课.md",
     "软件开发/数据分析/工具/numpy/numpy介绍.md",
     "软件开发/数据分析/工具/numpy/ndarray的属性.md",
     "软件开发/数据分析/工具/numpy/ndarray特性.md",
     "软件开发/数据分析/工具/numpy/numpy.md",
-    "软件开发/ai研究/工具/影刀aipower/20260423公开课/前言.md",
-    "软件开发/软件开发.md",
     "基础学科/基础学科.md",
-    "assets/Pasted image 20260430184639.png",
-    "软件开发/ai研究/工具/Harness Engineering/Harness Engineering 笔记 - 编程导航.md",
     "Clippings/read.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档 5.md",
@@ -252,19 +257,13 @@
     "Clippings/鹅厂面试官：“你用过 Harness Engineering 吗？” 我冷笑：“这不是 22 年的技术么？” 他激动了：明天入职！.md",
     "软件开发/ai研究/工具/Harness Engineering",
     "软件开发/ai研究/工具",
-    "assets/Pasted image 20260430133435.png",
     "软件开发/办公自动化/工具/影刀自动化/影刀官方中级课程/搭建：订单信息审核.md",
     "Clippings",
     "游戏/戴森球计划",
     "游戏",
-    "游戏开发/游戏开发.md",
-    "硬件开发/esp32/工具/micropython/从ide安装到运行python脚本的ESP32MicroPython环境搭建（windows+vscode版）.md",
-    "assets/Pasted image 20260426131240.png",
-    "assets/1dffd9a9-4958-4392-b512-b586490ea190 1.png",
     "基础学科/计算机基础/计算机图形学",
     "基础学科/计算机基础/数据结构与算法",
     "硬件开发/stm32",
-    "硬件开发/esp32/工具/micropython",
-    "硬件开发/esp32/工具"
+    "硬件开发/esp32/工具/micropython"
   ]
 }
