@@ -37,48 +37,46 @@ Harness 翻译过来是「马具」，把 AI 模型比作马，Harness 就是驾
 
 ### 📈 发展历程
 
-很多人以为 Harness 是 2026 年蹦出来的新东西，其实从 2022 年 ChatGPT 出来的时候，大家就已经在做了，只是当时没叫这个名字。
-
-这三者是**层层包含**的关系：
+Harness 不是 2026 年的新东西，从 2022 年 ChatGPT 出来时大家就已经在做了，只是当时没叫这个名字。三者是层层包含的关系：
 
 1. **提示词工程（2022-2024）**
-   - 核心：通过对话让 AI 听懂你的需求
-   - 方法：设定角色、约束输出格式、用思维链让它一步步思考、给几个示例让它模仿
-   - 效果：虽然简单，但确实能让 AI 的输出质量提升一大截
+   - 核心：通过对话让 AI 听懂需求
+   - 方法：设定角色、约束格式、思维链、给示例
+   - 效果：提升 AI 输出质量
 
 2. **上下文工程（2025）**
    - 核心：在对的时候把对的信息喂给 AI
-   - 方法：写 AGENTS.md 规则文件让 AI 了解项目背景，用 RAG 让 AI 能检索相关资料，对过长的上下文做压缩和摘要，甚至给 AI 建立跨对话的记忆机制，让它不会聊着聊着就断片儿
+   - 方法：AGENTS.md、RAG、上下文压缩、跨对话记忆
 
 3. **Harness Engineering（2026）**
-   - 核心：让 AI 不只是回答问题，而是持续靠谱地干完一整件事
-   - 关注点：给它配什么工具、大任务怎么拆分成小步骤分批完成、出了问题怎么自己检查和修复、怎么防止代码质量随着迭代慢慢下滑
+   - 核心：让 AI 持续靠谱地完成整个任务
+   - 关注点：工具配置、任务拆分、自检修复、质量防护
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/LlSQOKIxJ1HfsPrfbdibRTwmPloPP2bUIibTa8XANM8w0ticrOZ01JLjYSX9ibnd5lZDiccA4vWkY8ZYYXwA1hadWXEcncaHFfPAaJdLfK8FJ22A/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=5)
 
-**业界总结公式**：
+**业界公式**：
 
-> **Agent = 模型 + Harness**
+> Agent = 模型 + Harness
 
-也就是说，围绕 AI 模型搭建的工具、规则、流程、检查机制，全都属于 Harness 的范畴！
+围绕 AI 模型搭建的工具、规则、流程、检查机制都属于 Harness。
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/LlSQOKIxJ1EHibhaShO5UPdOP2ccOicg0tdTm9bbK5ehZz4sLLeDBXoWcPkEObX6Baqhcfg2BfKkYUhSZqDDPwTnibEmCTMsGZzm5HhvbAxOTk/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=7)
 
 ---
 
-## 二、Harness 的五个核心模块
+## 二、五个核心模块
 
-讲到这里，你可能觉得 Harness 挺大、挺抽象的。其实没那么复杂，它要解决的就是 AI 干活时会遇到的几个核心问题。如果你是程序员，或者有做过项目的经验，会发现这些方法其实都不陌生！
+Harness 解决 AI 干活时的核心问题，这些方法对有项目经验的人来说并不陌生。
 
-### 1️⃣ 上下文架构：让 AI 了解项目背景和规矩
+### 1️⃣ 上下文架构
 
-> **关键词**：AGENTS.md 规则文件、分层文档、上下文压缩、渐进式加载
+> 关键词：AGENTS.md、分层文档、上下文压缩、渐进式加载
 
-做项目的第一步是什么？当然是了解需求、项目背景和开发规范。用 AI 做项目也一样，你得把这些信息喂给它。
+做项目第一步是了解需求、背景和规范，用 AI 做项目也一样，需要把这些信息喂给它。
 
-我们可以写 **AGENTS.md** 这样的规则文件，告诉 AI 这个项目用什么技术栈、遵循什么代码规范、有哪些禁止事项。这跟我们传统做项目时写需求文档、方案设计文档是一样的。
+我们可以写 **AGENTS.md** 规则文件，告诉 AI 技术栈、代码规范、禁止事项。
 
-不过要注意，AI 能处理的上下文空间是有限的！OpenAI 团队就踩过一个坑：他们试过把几千行的规则塞进一个大文件，结果 AI 反而更容易忽略里面的关键信息。
+AI 能处理的上下文空间有限！OpenAI 团队踩过坑：把几千行规则塞进一个文件，AI 反而会忽略关键信息。
 
 后来他们改成把 **AGENTS.md 当成一个「目录」来用**，只写大概 100 行的摘要和索引，然后在 `docs/` 目录下放详细的设计文档。AGENTS.md 里面写清楚「前端规范看 `docs/FRONTEND.md`、安全相关看 `docs/SECURITY.md`」这样的指引，AI 需要什么就去读对应的文件。
 
@@ -86,21 +84,23 @@ Harness 翻译过来是「马具」，把 AI 模型比作马，Harness 就是驾
 
 这种**按需加载**的思路，就是上下文架构的核心！
 
-### 2️⃣ 执行能力：给 AI 装上手脚和工具
+### 2️⃣ 执行能力
 
-> **关键词**：工具调用、Bash 终端、文件系统、MCP、Browser Use、Skills 技能包
+> 关键词：工具调用、Bash 终端、文件系统、MCP、Browser Use、Skills
 
-AI 模型本身只能输出文本。如果你想让 AI 真正帮你开发项目，就得通过工具调用让它具备**操作电脑的能力**：
+AI 模型本身只能输出文本。要让它帮你开发项目，得通过工具调用让它具备操作电脑的能力：
 
-- 给它配一个终端环境来执行命令
-- 给它文件系统来读写代码
-- 给它浏览器来测试网页
+- 配终端环境执行命令
+- 给文件系统读写代码
+- 给浏览器测试网页
 
-在这个基础上，还可以通过 **MCP** 进一步扩展 AI 的操作范围，比如读写数据库、联网搜索和抓取最新的内容等等。
+通过 **MCP** 可进一步扩展操作范围，比如读写数据库、联网搜索等。
 
-还有 **Agent Skills**，把一整套复杂的工作流封装成技能包，让 AI 能够快速学会各种专业技能，比如自动生成 PPT、处理 Excel 表格之类的。
+还有 **Agent Skills**，把复杂工作流封装成技能包，让 AI 学会各种专业技能，如自动生成 PPT、处理 Excel。
 
 总之，**让 AI 能用的工具越多，它能帮你干的活就越多！**
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1EJZTQR1eB6eHPba1ZDEm0fq4MwScyCrE1ztvpKVzFNUmRibficEPxBeWvVx6yLWrUFF5C1tqDInYIiaJiaor9mAodv9e6AHeLObDc/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=9)
 
 ### 3️⃣ 任务编排：给 AI 安排好工作计划
 
