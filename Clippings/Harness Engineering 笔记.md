@@ -1,7 +1,3 @@
-# Harness Engineering 笔记
-
----
-
 ## 💡 引言：你遇到过这些 AI 编程坑吗？
 
 用 AI 编程时，你是不是也碰到过这些头疼的问题？
@@ -9,6 +5,8 @@
 - 让 AI 改下页面样式，结果它没搞懂，直接重新开发了整个布局？
 - 明明一开始要求单文件不超过 200 行，聊了十几轮后，AI 早就把前面的约束忘了，写了个 1000 行的大文件？
 - 更让人崩溃的：让 AI 修个 Bug，结果又出了 3 个新 Bug，项目都跑不起来了？
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1FBibcCZvL958yC0ZIvC7GlhTf3v73LDLm7unnrFicIT2xicD5YVIm3IToT1c5vkIiacQ8JZFp4W1Zps5gic8j545SWEwHSd5j8RSWY/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=0)
 
 前两个问题还有办法解决（写好提示词、给够信息），但第三个问题就比较棘手了。**要让 AI 做好一个完整项目，你得给它搭一整套靠谱的工作环境和流程才行。
 
@@ -21,26 +19,31 @@
 ### 🐴 定义
 
 Harness 翻译过来是「马具」，这个比喻很形象：
+
 - 如果把 AI 模型比作一匹马
 - 那 Harness 就是驾驭这匹马所需要的一切：**缰绳、路线规划、围栏等等
 
 我们要做的，就是怎么让这匹马跑得更快、更稳，顺利完成任务。
 
 具体来说，Harness 是围绕 AI 模型搭建的一整套**工作环境和工作流程**，包括：
+
 - 你给 AI 写的项目规则文件
 - 配置的各种工具
 - 安排的任务拆分和执行顺序
 - 设计的测试检查流程
+- 等等
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/LlSQOKIxJ1EmCJv7g3o4xWK6cAgZClVo1vuAxocEiaq9oAJUI2CiavwMCVmRDxbYAZVp3rz1APHoE30UZmibjJTCicVn5gzDgiclSb7MiaWiabicVpw/640?wx_fmt=png\&from=appmsg\&tp=webp\&wxfrom=5\&wx_lazy=1#imgIndex=1)
 
 ### 🔥 为什么突然火了？
 
 有两个重磅案例把这个概念带火了：
 
 1. **LangChain 实验**：同一个 AI 模型，只优化围绕它的 Harness 部分，编码基准测试排名直接从 30 名开外冲到了前 5！
-
 2. **OpenAI 团队**：3 个人的小团队，全靠 Harness 引导 AI 生成了上百万行代码，做出的产品已经在内部正式上线使用了！
 
 **行业共识**：
+
 > **AI 编程的瓶颈不在模型有多聪明，而在你围绕模型搭的这套环境和流程够不够好！**
 
 ### 📈 发展历程
@@ -63,6 +66,7 @@ Harness 翻译过来是「马具」，这个比喻很形象：
    - 关注点：给它配什么工具、大任务怎么拆分成小步骤分批完成、出了问题怎么自己检查和修复、怎么防止代码质量随着迭代慢慢下滑
 
 **业界总结公式**：
+
 > **Agent = 模型 + Harness**
 
 也就是说，围绕 AI 模型搭建的工具、规则、流程、检查机制，全都属于 Harness 的范畴！
@@ -234,7 +238,6 @@ Harness 本身并不复杂，也没什么需要专门去啃的理论。上面项
 如果你缺乏做项目的经验、或者觉得自己搭建 Harness 太麻烦，也可以直接使用一些现成的开源工具：
 
 - **Spec Kit**：使用 SDD（Spec-Driven Development）规范驱动开发的思路，先引导你把需求拆解成详细的规范文档，然后让 AI 按照文档一步步开发，每个阶段都有明确的验收标准。
-
 - **Superpowers**：这种 Agent Skills 框架，内置了一整套开发工作流，包括强制 TDD（Test-Driven Development）测试驱动开发（先写测试再写代码），还有两阶段代码审查、子代理协作等，相当于直接给 AI 装了一套完整的项目管理流程。
 
 虽然这些工具可以帮你快速起步，但从长远来看，**理解 Harness 的思路比掌握某个工具更重要**！毕竟工具一直在变化，但「怎么系统地驾驭 AI」这个思路是通用的。想要真正掌握 Harness，最好的办法还是在实战项目中去体会！
@@ -254,4 +257,6 @@ Harness 本身并不复杂，也没什么需要专门去啃的理论。上面项
 
 ---
 
-**来源**：程序员鱼皮
+参考链接：
+
+- [原文链接](https://mp.weixin.qq.com/s/qdTXCvMA4yI9mTuQv8Zq6A)：鹅厂面试官：“你用过 Harness Engineering 吗？” 我冷笑：“这不是 22 年的技术么？” 他激动了：明天入职！
