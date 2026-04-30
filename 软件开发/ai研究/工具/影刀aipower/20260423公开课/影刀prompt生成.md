@@ -8,6 +8,8 @@
 
 [影刀AI Power](https://aipower.yingdao.com/workflows)
 
+![[Pasted image 20260430203255.png]]
+
 得到一个ai工作流
 
 ![[Pasted image 20260424224407.png]]
