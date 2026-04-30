@@ -12,7 +12,7 @@
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
-  "underlineFolder": true,
+  "underlineFolder": false,
   "stopWhitespaceCollapsing": true,
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
@@ -30,15 +30,15 @@
     "id": "",
     "folderPath": "",
     "title": "{{folderName}} overview",
-    "showTitle": false,
+    "showTitle": true,
     "depth": 3,
     "includeTypes": [
       "folder",
       "markdown"
     ],
-    "style": "list",
+    "style": "explorer",
     "disableFileTag": false,
-    "sortBy": "name",
+    "sortBy": "created",
     "sortByAsc": true,
     "showEmptyFolders": false,
     "onlyIncludeSubfolders": false,
@@ -63,13 +63,13 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "general",
+  "settingsTab": "path",
   "supportedFileTypes": [
     "md",
     "canvas",
     "base"
   ],
-  "boldName": false,
+  "boldName": true,
   "boldNameInPath": false,
   "cursiveName": false,
   "cursiveNameInPath": false,
@@ -109,8 +109,8 @@
     "detached": false,
     "showFolderNote": false
   },
-  "hideCollapsingIcon": false,
-  "hideCollapsingIconForEmptyFolders": false,
+  "hideCollapsingIcon": true,
+  "hideCollapsingIconForEmptyFolders": true,
   "tabManagerEnabled": true,
   "ignoreAttachmentFolder": true,
   "deleteFilesAction": "trash",
@@ -125,7 +125,7 @@
   },
   "firstTimeInsertOverview": true,
   "fvGlobalSettings": {
-    "autoUpdateLinks": false
+    "autoUpdateLinks": true
   },
   "hideFolderNoteNameInPath": false
 }
