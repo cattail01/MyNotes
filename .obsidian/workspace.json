@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/read_整理版.md",
+                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/知识库【RAG】.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "read_整理版"
+              "title": "知识库【RAG】"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/read_整理版.md",
+                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/知识库【RAG】.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "read_整理版 的大纲"
+              "title": "知识库【RAG】 的大纲"
             }
           },
           {
@@ -220,6 +220,10 @@
   },
   "active": "9e245a360f561db6",
   "lastOpenFiles": [
+    "Clippings/read_整理版.md",
+    "assets/Pasted image 20260430201321.png",
+    "assets/Pasted image 20260430201313.png",
+    "assets/Pasted image 20260430200935.png",
     "assets/Pasted image 20260430200528.png",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/提示词【Prompt】.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/影刀prompt生成.md",
@@ -233,7 +237,6 @@
     "软件开发/软件开发.md",
     "基础学科/基础学科.md",
     "assets/Pasted image 20260430184639.png",
-    "Clippings/read_整理版.md",
     "软件开发/ai研究/工具/Harness Engineering/Harness Engineering 笔记 - 编程导航.md",
     "Clippings/read.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档.md",
@@ -261,9 +264,6 @@
     "基础学科/计算机基础/数据结构与算法",
     "硬件开发/stm32",
     "硬件开发/esp32/工具/micropython",
-    "硬件开发/esp32/工具",
-    "assets/Pasted image 20260425000655.png",
-    "assets/Pasted image 20260424224407.png",
-    "assets/Pasted image 20260422224659.png"
+    "硬件开发/esp32/工具"
   ]
 }
