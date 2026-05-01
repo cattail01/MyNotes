@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
+                "file": "软件开发/数据分析/工具/numpy/ndarray特性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness Engineering 介绍"
+              "title": "ndarray特性"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
+                "file": "软件开发/数据分析/工具/numpy/ndarray特性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Harness Engineering 介绍 的大纲"
+              "title": "ndarray特性 的大纲"
             }
           },
           {
@@ -218,15 +218,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d145cc24c82dfd8a",
+  "active": "9e245a360f561db6",
   "lastOpenFiles": [
+    "软件开发/数据分析/工具/numpy/ndarray的属性.md",
+    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【项目】智能客服.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】RAG的搭建.md",
+    "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
     "Clippings/read_整理版.md",
     "基础学科/基础学科.md",
     "技术美术/技术美术.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/20260423公开课.md",
     "软件开发/软件开发.md",
-    "软件开发/ai研究/工具/影刀aipower/20260423公开课/【项目】智能客服.md",
     "assets/Pasted image 20260430221628.png",
     "assets/Pasted image 20260430221538.png",
     "assets/Pasted image 20260430221003.png",
@@ -238,7 +240,6 @@
     "assets/Pasted image 20260430214749.png",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】知识库【RAG】.md",
     "assets/Pasted image 20260430214036.png",
-    "软件开发/ai研究/工具/Harness Engineering/编程导航/Harness Engineering 介绍.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】提示词【Prompt】.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/前言.md",
     "软件开发/ai研究/工具/Harness Engineering/编程导航",
@@ -246,7 +247,6 @@
     "硬件开发/硬件开发.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
     "软件开发/数据分析/工具/numpy/numpy介绍.md",
-    "软件开发/数据分析/工具/numpy/ndarray的属性.md",
     "软件开发/数据分析/工具/numpy/ndarray特性.md",
     "软件开发/数据分析/工具/numpy/numpy.md",
     "Clippings/read.md",
