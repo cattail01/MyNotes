@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件开发/数据分析/工具/numpy/ndarray特性.md",
+                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/【项目】智能客服.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ndarray特性"
+              "title": "【项目】智能客服"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件开发/数据分析/工具/numpy/ndarray特性.md",
+                "file": "软件开发/ai研究/工具/影刀aipower/20260423公开课/【项目】智能客服.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ndarray特性 的大纲"
+              "title": "【项目】智能客服 的大纲"
             }
           },
           {
@@ -220,6 +220,9 @@
   },
   "active": "9e245a360f561db6",
   "lastOpenFiles": [
+    "assets/Pasted image 20260501222657.png",
+    "assets/Pasted image 20260501222549.png",
+    "软件开发/数据分析/工具/numpy/ndarray特性.md",
     "软件开发/数据分析/工具/numpy/ndarray的属性.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【项目】智能客服.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】RAG的搭建.md",
@@ -239,7 +242,6 @@
     "assets/Pasted image 20260430214904.png",
     "assets/Pasted image 20260430214749.png",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】知识库【RAG】.md",
-    "assets/Pasted image 20260430214036.png",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【理论】提示词【Prompt】.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/前言.md",
     "软件开发/ai研究/工具/Harness Engineering/编程导航",
@@ -247,7 +249,6 @@
     "硬件开发/硬件开发.md",
     "软件开发/ai研究/工具/影刀aipower/20260423公开课/【实战】影刀prompt生成.md",
     "软件开发/数据分析/工具/numpy/numpy介绍.md",
-    "软件开发/数据分析/工具/numpy/ndarray特性.md",
     "软件开发/数据分析/工具/numpy/numpy.md",
     "Clippings/read.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档.md",
@@ -256,7 +257,6 @@
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档 3.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档 1.md",
     "Clippings/「AI打破自动化边界」智能客服・AI生图・人才评估 - 飞书云文档 2.md",
-    "Clippings/鹅厂面试官：“你用过 Harness Engineering 吗？” 我冷笑：“这不是 22 年的技术么？” 他激动了：明天入职！.md",
     "软件开发/ai研究/工具/Harness Engineering",
     "软件开发/ai研究/工具",
     "Clippings",
